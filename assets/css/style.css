@@ -13,3 +13,42 @@
     height: 100vh;
     row-gap: 1rem;
     column-gap: 1rem;
+
+    .item-1 {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+        background-color: red;
+    }
+
+    .item-2 {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+        background-color: yellow;
+    }
+
+    .item-3 {
+        grid-column: 1 / 5;
+        grid-row: 3 / 4;
+        background-color: gray;
+        /*width: 95%;
+        margin-right: auto;
+        margin-left: auto;*/
+    }
+
+    .item-4 {
+        grid-column: 1 / 5;
+        grid-row: 4 / 5;
+        background-color: blue;
+    }
+
+    .item-5 {
+        grid-column: 1 / 5;
+        grid-row: 5 / 6;
+        background-color: grey;
+    }
+
+    .item-6 {
+        grid-column: 1 / 5;
+        grid-row: 6 / 7;
+        background-color: pink;
+    }
