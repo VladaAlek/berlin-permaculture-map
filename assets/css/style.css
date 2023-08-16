@@ -20,16 +20,7 @@
         background-color: red;
     }
 
-    #title {
-        font-size: 3rem;
-        text-align: center;
-        margin-top: 40px;
-    }
 
-    #subtitle {
-        text-align: center;
-        color: blueviolet;
-    }
 
     .item-2 {
         grid-column: 1 / 5;
@@ -39,6 +30,17 @@
         background-repeat: no-repeat, no-repeat;
         background-position: top;
         background-size: cover;
+    }
+
+    #title {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    h3 {
+        text-align: center;
+        color: blueviolet;
     }
 
     .item-3 {
