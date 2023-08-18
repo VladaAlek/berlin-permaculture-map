@@ -5,67 +5,77 @@
 }
 
 .container {
+    padding: 2rem;
     display: grid;
     /*grid-template-columns: minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr);*/
     '
- grid-template-columns: repeat (auto-fit, minmax (100px, 2fr));
-    grid-template-rows: auto repeat (4, 1fr) auto;
+ grid-template-columns: repeat, (12, 1fr);
+    grid-template-rows: 10% repeat (2, rf) 3rf 1rf 10%;
     height: 100vh;
     row-gap: 1rem;
     column-gap: 1rem;
+}
 
-    .item-1 {
-        grid-column: 1 / 5;
-        grid-row: 1 / 2;
-        background-color: red;
-    }
+.item-1 {
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
+    background-color: red;
+}
 
+.item-2 {
+    grid-column: 1 / 13;
+    grid-row: 2 / 3;
+    background-color: yellow;
+}
 
+.item-3 {
+    grid-column: 1 / 13;
+    grid-row: 3 / 4;
+    background-color: gray;
+    /*width: 95%;
+  margin-right: auto;
+  margin-left: auto;*/
+}
 
-    .item-2 {
-        grid-column: 1 / 5;
-        grid-row: 2 / 3;
-        background-color: yellow;
-        background-image: url(".css/assets/images/sunshine.png");
-        background-repeat: no-repeat, no-repeat;
-        background-position: top;
-        background-size: cover;
-    }
+.item-4 {
+    grid-column: 1 / 13;
+    grid-row: 4 / 5;
+    background-color: blue;
+    border: 5px solid rgba(255, 255, 255, .5);
+    border-radius: 10px;
+}
 
-    #title {
-        font-size: 3rem;
-        text-align: center;
-        margin-top: 40px;
-    }
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 100px;
+}
 
-    h3 {
-        text-align: center;
-        color: blueviolet;
-    }
+.item-5 {
+    grid-column: 1 / 13;
+    grid-row: 5 / 6;
+    background-color: grey;
+}
 
-    .item-3 {
-        grid-column: 1 / 5;
-        grid-row: 3 / 4;
-        background-color: gray;
-        /*width: 95%;
-        margin-right: auto;
-        margin-left: auto;*/
-    }
+.item-6 {
+    grid-column: 1 / 13;
+    grid-row: 6 / 7;
+    background-color: pink;
+}
 
-    .item-4 {
-        grid-column: 1 / 5;
-        grid-row: 4 / 5;
-        background-color: blue;
-    }
+.text {
+    max-height: 120px;
+}
 
-    .item-5 {
-        grid-column: 1 / 5;
-        grid-row: 5 / 6;
-        background-color: grey;
-    }
-
-    .item-6 {
-        grid-column: 1 / 5;
-        grid-row: 6 / 7;
-        background-color: pink;
-    }
+.item-3,
+.item-5 {
+    text-align: center;
+    padding: 20px;
+}
