@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #c9cebd;
+}
+
 .container {
     padding: 2rem;
     display: grid;
@@ -19,7 +23,7 @@
 .item-1 {
     grid-column: 1 / 13;
     grid-row: 1 / 2;
-    background-color: red;
+    background-color: #6C6061;
 }
 
 .item-2 {
@@ -34,7 +38,7 @@
 .item-3 {
     grid-column: 1 / 13;
     grid-row: 3 / 4;
-    background-color: gray;
+    background-color: #B2BCAA;
     /*width: 95%;
   margin-right: auto;
   margin-left: auto;*/
@@ -43,34 +47,54 @@
 .item-4 {
     grid-column: 1 / 13;
     grid-row: 4 / 5;
-    background-color: blue;
-    border: 5px solid rgba(255, 255, 255, .5);
+    background-color: #C9CEBD;
+    border: 3px solid #64403E;
     border-radius: 10px;
+    /*position: relative;
+    background: #eee;
+    overflow: hidden;
+    padding: 0;*/
 }
 
+/*.item-4 iframe {
+    overflow: hidden;
+}*/
+
+/*.item-4 iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}*/
+
+/*https://stackoverflow.com/questions/33451481/scale-and-reposition-iframe-like-background-size-cover*/
 button {
-    background-color: #4CAF50;
+    background-color: #64403E;
     /* Green */
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: #C9CEBD;
+    padding: 10px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin-left: 100px;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    border-radius: 12px;
 }
 
 .item-5 {
     grid-column: 1 / 13;
     grid-row: 5 / 6;
-    background-color: grey;
+    background-color: #B2BCAA;
 }
 
 .item-6 {
     grid-column: 1 / 13;
     grid-row: 6 / 7;
-    background-color: pink;
+    background-color: #6C6061;
 }
 
 .text {
