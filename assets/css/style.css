@@ -33,6 +33,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top;
     background-size: cover;
+    text-align: center;
 }
 
 .item-3 {
@@ -114,32 +115,46 @@ button:hover {
     background-color: #6C6061;
 }
 
-.text {
-    max-height: 120px;
-}
-
-.item-2,
-.item-3,
-.item-5 {
+.social-networks {
     text-align: center;
-    padding: 20px;
 }
 
-p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-indent: 15px;
-    text-align: left;
-    letter-spacing: 2px;
-    font-size: 14px;
-
+.social-networks>li {
+    display: inline;
 }
 
-h1 {
-    text-transform: uppercase;
-    color: #838E83;
-}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #c9cebd;
 
-h2 {
-    font-style: italic;
-    color: #C9CEBD;
+    .text {
+        max-height: 120px;
+    }
+
+    .item-2,
+    .item-3,
+    .item-5 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-indent: 15px;
+        text-align: left;
+        letter-spacing: 2px;
+        font-size: 14px;
+
+    }
+
+    h1 {
+        text-transform: uppercase;
+        color: #838E83;
+    }
+
+    h2 {
+        font-style: italic;
+        color: #C9CEBD;
