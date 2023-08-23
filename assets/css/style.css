@@ -85,6 +85,7 @@ main {
     background-position: top;
     background-size: cover;
     text-align: center;
+    border: none;
 }
 
 .item-3 {
@@ -226,6 +227,8 @@ button:hover {
             text-align: center;
             margin-buttom: 20px;
         }
+
+        /*media queries*/
 
         @media screen and (min-width: 375px) {
             .menu {
