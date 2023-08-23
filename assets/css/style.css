@@ -15,7 +15,6 @@ body {
 .container {
     padding: 2rem;
     display: grid;
-    /*grid-template-columns: minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr);*/
     grid-template-columns: repeat, (12, 1fr);
     grid-template-rows: 10% 1rf 4rf 3rf 1rf 10%;
     height: 100vh;
@@ -100,6 +99,10 @@ ul li a:hover {
         margin: 10px 5px;
         font-size: 16px;
     }
+
+    .item-2 {
+        background-position: center;
+    }
 }
 
 
@@ -148,7 +151,7 @@ h2 {
     grid-row: 3 / 4;
     background-color: #B2BCAA;
     border-radius: 10px;
-    padding: 10px 8px;
+    padding: 10px 15px;
     text-align: left;
 }
 
@@ -203,8 +206,9 @@ button:hover {
     grid-row: 5 / 6;
     background-color: #B2BCAA;
     border-radius: 10px;
-    padding: 10px 8px;
+    padding: 10px 15px;
     text-align: left;
+
 }
 
 .item-6 {
