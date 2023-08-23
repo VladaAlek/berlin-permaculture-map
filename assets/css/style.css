@@ -252,4 +252,44 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/*style for form page*/
+/*style for the Form Page page*/
+
+
+/*.item-2 {
+    grid-column: 1 / 13;
+    grid-row: 2 / 3;
+    background-color: yellow;
+}*/
+
+.form-item-3 {
+    grid-column: 1 / 13;
+    grid-row: 3 / 9;
+    background-color: orange;
+    /*width: 95%;
+  margin-right: auto;
+  margin-left: auto;*/
+}
+
+.form-item-4 {
+    grid-column: 1 / 13;
+    grid-row: 9 / 12;
+    /*border: 5px solid rgba(255, 255, 255, .5);
+  border-radius: 10px;*/
+}
+
+.form-image {
+    width: 400px;
+    height: 400px;
+}
+
+/*button {
+  background-color: #4CAF50;  Green 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 100px;
+}*/
