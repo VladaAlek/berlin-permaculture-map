@@ -278,8 +278,9 @@ button:hover {
 }
 
 .form-image {
-    width: 400px;
-    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*button {
