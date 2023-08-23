@@ -121,7 +121,15 @@ main {
     border: none;
 }
 
-h1 {
+
+@media screen and (min-width: 850px) {
+
+    .item-2 {
+        background-position: center;
+    }
+}
+
+*/ h1 {
     text-transform: uppercase;
     color: #C9CEBD;
     font-family: Urbanist, sans-serif;
@@ -235,7 +243,7 @@ button:hover {
 
 .paragraph-title {
     text-align: center;
-    margin-buttom: 20px;
+    margin-bottom: 20px;
 }
 
 /*.item-3 h3,
