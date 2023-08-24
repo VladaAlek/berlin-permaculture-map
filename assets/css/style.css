@@ -15,7 +15,7 @@ body {
 .container {
     padding: 2rem;
     display: grid;
-    grid-template-columns: repeat, (12, 1fr);
+    grid-template-columns: repeat (12, 1fr);
     /*grid-template-rows: 10% 1rf 4rf 3rf 1rf 10%;*/
     grid-template-rows: 10% repeat (10, rf) 10%;
     height: 100vh;
@@ -259,16 +259,32 @@ button:hover {
 /*style for the Form Page page*/
 
 
-/*.item-2 {
+.form-main {
     grid-column: 1 / 13;
-    grid-row: 2 / 3;
-    background-color: yellow;
-}*/
-.form-main {}
+    grid-row: 2 / 12;
+}
+
+.form-item-2 {
+    grid-column: 1 / 13;
+    grid-row: 2 / 4;
+}
 
 .form-item-3 {
     grid-column: 1 / 13;
-    grid-row: 3 / 9; 
+    grid-row: 4 / 9;
+}
+
+legend {
+    font-size: 48px;
+    font-family: Urbanist, sans-serif;
+    margin-left: 50px;
+    color: #6C6061
+}
+
+.form-paragraph {
+    font-size: 24px;
+    color: #6C6061;
+    margin: 20px 70px;
 }
 
 .form-item-4 {
