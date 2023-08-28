@@ -30,24 +30,40 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 15px;
+    padding-top: 8px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.logo-link {
+/*.logo-link {
+    width: 30px;
+    height: 30px;
     font-size: 12px;
     color: #c9cebd;
     font: Urbanist, sans-serif;
     font-weight: 700;
-    display: block;
-}
+    text-decoration: none;
+}*/
+
 
 .logo-image {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid #c9cebd;
 }
 
+/*@media screen and (min-width: 375px) {
+    .logo-link {
+        width: 35px;
+        height: 35px;
+    }
+
+    .item-1 {
+        padding-left:
+    }
+}*/
 .menu {
     display: flex;
     flex-direction: column;
@@ -304,9 +320,18 @@ legend {
     background-image: url("../images/hosenbiene.PNG");
     height: 500px;
     background-repeat: no-repeat, no-repeat;
-    background-position: left;
+    background-position: right;
     background-size: cover;
 }
+
+/*adjust background-position: */
+@media screen and (max-width: 850px) {
+    .form-item-4 {
+        background-position: center;
+    }
+}
+
+
 
 /*.form-image {
     grid-column: 1 / 13;
