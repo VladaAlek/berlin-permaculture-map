@@ -213,13 +213,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    font-family: bold;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: Urbanist, sans-serif;
     margin-left: 150px;
     margin-bottom: 10px;
     margin-top: 8px;
     border-radius: 12px;
     position: absolute;
-    right: 150px;
+    right: 120px;
     bottom: 22px;
 }
 
@@ -336,13 +338,16 @@ textarea {
     margin: 8px 0;
     background-color: #64403E;
     border: none;
+    border-radius: 12px;
     color: #C9CEBD;
     padding: 5px 22px;
     text-align: center;
     text-decoration: none;
+    font-family: Urbanist, sans-serif;
     font-size: 12px;
-    font-family: bold;
-    border-radius: 12px
+    font-weight: 600;
+    letter-spacing: 3px;
+
 }
 
 .submit-button:hover {
