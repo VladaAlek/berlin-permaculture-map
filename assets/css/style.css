@@ -206,7 +206,6 @@ h2 {
 
 button {
     background-color: #64403E;
-    /* Green */
     border: none;
     color: #C9CEBD;
     padding: 10px 22px;
@@ -223,6 +222,7 @@ button {
     right: 150px;
     bottom: 22px;
 }
+
 
 button:hover {
     border: 1px solid #64403E;
@@ -299,7 +299,9 @@ button:hover {
 .form-item-3 {
     grid-column: 1 / 13;
     grid-row: 4 / 9;
+    position: relative;
 }
+
 
 legend {
     font-size: 48px;
@@ -320,15 +322,51 @@ input {
     width: 50%;
     height: 30px;
     border: 2px solid #6C6061;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 textarea {
     width: 50%;
     border: 2px solid #6C6061;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
+.submit-button {
+    margin: 8px 0;
+    background-color: #64403E;
+    border: none;
+    color: #C9CEBD;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: bold;
+    border-radius: 12px
+}
+
+.submit-button:hover {
+    border: 1px solid #64403E;
+    background-color: #C9CEBD;
+    color: #64403E;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.form-section-div {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 140px;
+    right: -190px;
+}
+
+.form-section-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.3;
+}
 
 .form-item-4 {
     grid-column: 1 / 13;
