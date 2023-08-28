@@ -304,15 +304,31 @@ button:hover {
 legend {
     font-size: 48px;
     font-family: Urbanist, sans-serif;
-    margin-left: 50px;
-    color: #6C6061
+    margin-left: 10px;
+    color: #6C6061;
 }
 
-.form-paragraph {
-    font-size: 24px;
+.label-text {
+    display: block;
+    font-size: 18px;
     color: #6C6061;
-    margin: 20px 70px;
+    font-weight: 600;
+    margin: 8px 0;
 }
+
+input {
+    width: 50%;
+    height: 30px;
+    border: 2px solid #6C6061;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 50%;
+    border: 2px solid #6C6061;
+    border-radius: 2px;
+}
+
 
 .form-item-4 {
     grid-column: 1 / 13;
@@ -322,6 +338,7 @@ legend {
     background-repeat: no-repeat, no-repeat;
     background-position: right;
     background-size: cover;
+
 }
 
 /*adjust background-position: */
