@@ -155,7 +155,7 @@ main {
     border: none;
 }
 
-
+/*the lines bellow don^t work*/
 @media screen and (min-width: 850px) {
 
     .item-2 {
@@ -367,11 +367,48 @@ textarea {
     right: -190px;
 }
 
+@media screen and (min-width: 500px) {
+    .form-section-div {
+        right: -120px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .form-section-div {
+        right: -30px;
+    }
+}
+
+
 .form-section-photo {
     width: 300px;
     height: 300px;
+    display: block;
+    overflow: hidden;
     border-radius: 10px;
     opacity: 0.3;
+}
+
+@media screen and (min-width: 800px) {
+    .form-section-div {
+        right: 20px;
+    }
+
+    .form-section-photo {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .form-section-div {
+        right: 50px;
+    }
+
+    .form-section-photo {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 .form-item-4 {
@@ -386,7 +423,7 @@ textarea {
 }
 
 /*adjust background-position: */
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 850px) {
     .form-item-4 {
         background-position: center;
     }
