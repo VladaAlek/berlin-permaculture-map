@@ -566,18 +566,27 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-template-row: repeat (6, 200px);
-
+    margin-top: 41px;
+    column-gap: 82px;
+    row-gap: 41px;
 }
 
 .child-div {
     background-color: green;
-    width: 250px;
-    height: 250px;
-
+    max-width: 311px;
+    height: 311px;
 }
 
 
 .child-div-3,
 .child-div-5 {
     background-color: gray;
+}
+
+@media screen and (min-width: 767x) {
+    .child-div {
+        width: 352px;
+        height: 352px;
+    }
+
 }
