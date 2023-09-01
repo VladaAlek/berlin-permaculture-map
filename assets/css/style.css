@@ -183,7 +183,7 @@ h2 {
     allowfullscreen allow="geolocation"
 }
 
-.item-3 {
+.text-explanation {
 
     grid-column: 1 / 13;
     grid-row: 4 / 6;
@@ -193,7 +193,7 @@ h2 {
     text-align: left;
 }
 
-.item-4 {
+.map-section {
 
     grid-column: 1 / 13;
     grid-row: 6 / 9;
@@ -207,7 +207,7 @@ h2 {
     padding: 0;*/
 }
 
-.item-4 iframe {
+.map-section iframe {
     border-radius: 10px;
 }
 
@@ -241,7 +241,7 @@ button:hover {
     transition: 0.3s;
 }
 
-.item-5 {
+.text-explanation {
     grid-column: 1 / 13;
     grid-row: 9 / 12;
     background-color: #B2BCAA;
@@ -295,7 +295,7 @@ button:hover {
     grid-row: 2 / 4;
 }
 
-.form-item-3 {
+.contribute-form {
     grid-column: 1 / 13;
     grid-row: 4 / 9;
     position: relative;
