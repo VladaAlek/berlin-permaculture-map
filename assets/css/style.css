@@ -579,10 +579,14 @@ ol {
 
 .conntact-list li {
     color: black;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
     list-style-type: none;
     padding-left: 20px;
+}
+
+.iban-span {
+    font-weight: 12px;
 }
 
 @media screen and (min-width: 767x) {
