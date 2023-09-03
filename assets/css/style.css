@@ -191,6 +191,7 @@ h2 {
     border-radius: 10px;
     padding: 10px 15px;
     text-align: left;
+    line-height: 1.5;
 }
 
 .map-section {
@@ -568,15 +569,20 @@ main {
 }
 
 .child-div {
-    background-color: green;
     max-width: 311px;
-    height: 311px;
+    min-height: 311px;
 }
 
+ol {
+    padding-left: 10px;
+}
 
-.child-div-3,
-.child-div-5 {
-    background-color: gray;
+.conntact-list li {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    list-style-type: none;
+    padding-left: 20px;
 }
 
 @media screen and (min-width: 767x) {
