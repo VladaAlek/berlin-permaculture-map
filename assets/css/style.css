@@ -323,6 +323,7 @@ input {
     height: 30px;
     border: 2px solid #6C6061;
     border-radius: 3px;
+    padding-left: 10px;
 }
 
 textarea {
@@ -355,7 +356,7 @@ textarea {
 }
 
 
-.form-section-div {
+.form-section-div-absolute {
     width: 10px;
     height: 10px;
     position: absolute;
@@ -366,13 +367,11 @@ textarea {
 .form-section-photo {
     width: 300px;
     height: 300px;
-    display: block;
-    overflow: hidden;
     border-radius: 10px;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
 
     input {
         width: 50%;
@@ -382,54 +381,45 @@ textarea {
         width: 50%;
     }
 
-    .form-section-div {
-        right: 180px;
-        top: 180px;
-    }
-
-    .form-section-photo {
-        width: 170px;
-        height: 170px;
-    }
-}
-
-@media screen and (min-width: 650px) {
-
-    input {
-        width: 50%;
-    }
-
-    textarea {
-        width: 50%;
-    }
-
-    .form-section-div {
-        right: 260px;
-        top: 180px;
+    .form-section-div-absolute {
+        top: 280px;
+        right: 280px;
     }
 
     .form-section-photo {
         width: 250px;
         height: 250px;
     }
+
+    footer {
+        margin-top: 1rem;
+    }
 }
 
-@media screen and (min-width: 767px) {
-    .form-section-div {
-        right: 300px;
-        top: 180px;
+@media screen and (min-width: 768px) {
+    input {
+        width: 50%;
+    }
+
+    textarea {
+        width: 50%;
+    }
+
+    .form-section-div-absolute {
+        top: 320px;
+        right: 320px;
     }
 
     .form-section-photo {
-        width: 270px;
-        height: 270px;
+        width: 300px;
+        height: 300px;
     }
 }
 
-@media screen and (min-width: 920px) {
-    .form-section-div {
-        right: 380px;
-        top: 140px;
+@media screen and (min-width: 1024px) {
+    .form-section-div-absolute {
+        top: 300px;
+        right: 400px;
     }
 
     .form-section-photo {
@@ -437,20 +427,6 @@ textarea {
         height: 350px;
     }
 }
-
-@media screen and (min-width: 1024px) {
-    .form-section-div {
-        right: 425px;
-        top: 105px;
-    }
-
-    .form-section-photo {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-
 
 .form-item-4 {
     grid-column: 1 / 13;
