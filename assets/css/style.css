@@ -428,25 +428,15 @@ textarea {
     }
 }
 
-.form-item-4 {
+.contribute-page-photo {
     grid-column: 1 / 13;
     grid-row: 9 / 12;
-    background-image: url("../images/hosenbiene.PNG");
+    background-image: url("../images/Hosenbiene-small.webp");
     height: 500px;
     background-repeat: no-repeat, no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: cover;
-
 }
-
-/*adjust background-position: */
-@media screen and (min-width: 850px) {
-    .form-item-4 {
-        background-position: center;
-    }
-}
-
-
 
 /*.form-image {
     grid-column: 1 / 13;
