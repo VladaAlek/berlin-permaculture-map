@@ -428,8 +428,6 @@ form a {
 .photo-section-div {
     grid-column: 1 / 13;
     grid-row: 9 / 12;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 .contribute-page-photo {
@@ -574,7 +572,7 @@ main {
 
 .child-div {
     max-width: 311px;
-    min-height: 311px;
+    min-height: 726px;
 }
 
 ol {
