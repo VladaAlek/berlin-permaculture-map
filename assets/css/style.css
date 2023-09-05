@@ -137,8 +137,10 @@ ul li a:hover {
 
 
 main {
+    display: grid;
     grid-column: 1 / 13;
     grid-row: 2 / 12;
+    row-gap: 1rem;
 }
 
 /*to solve the gap between p2 and footer - caused by the main section*/
@@ -245,7 +247,6 @@ footer {
     background-color: #6C6061;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: 1rem;
 }
 
 .social-networks {
@@ -263,18 +264,19 @@ footer {
     color: #c9cebd;
 }
 
-.p {
+p {
     margin-top: 5px;
     margin-bottom: 5px;
-    text-indent: 15px;
     text-align: left;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 14px;
+    text-indent: 10px;
 }
 
 .paragraph-title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /*style for the Form Page page*/
@@ -324,18 +326,21 @@ textarea {
 .submit-button {
     display: block;
     max-width: 250px;
-    margin: 8px 0;
+    margin: 25px 0;
     background-color: #64403E;
     border: none;
     border-radius: 12px;
     color: #C9CEBD;
     padding: 5px 22px;
     text-align: center;
-    text-decoration: none;
     font-family: Urbanist, sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 3px;
+}
+
+form a {
+    text-decoration: none;
 }
 
 /*text decoration above none*/
