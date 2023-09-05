@@ -572,7 +572,8 @@ main {
 
 .child-div {
     max-width: 311px;
-    min-height: 726px;
+    max-height: 500px;
+    min-height: 500px;
 }
 
 ol {
