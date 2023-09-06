@@ -129,10 +129,6 @@ ul li a:hover {
         margin: 10px 5px;
         font-size: 16px;
     }
-
-    .title-section {
-        background-position: center;
-    }
 }
 
 
@@ -145,42 +141,63 @@ main {
 
 /*to solve the gap between p2 and footer - caused by the main section*/
 .title-section {
-
     grid-column: 1 / 13;
     grid-row: 1 / 2;
+    min-height: 250px;
     border-radius: 10px;
     background-image: url("../images/Oelweildefrucht-klein.webp");
     opacity: 0.8;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     text-align: center;
     border: none;
+    padding-top: 60px;
 }
 
-/*the lines bellow don^t work*/
-@media screen and (min-width: 850px) {
-
+@media screen and (max-width: 1023px) {
     .title-section {
-        background-position: center;
+        background-attachment: scroll;
     }
 }
 
 h1 {
+    font-size: 26px;
     text-transform: uppercase;
-    color: #f1c96c;
+    color: rgb(90, 112, 76);
     font-family: Urbanist, sans-serif;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 h2 {
+    font-size: 20px;
     font-style: italic;
-    color: white;
+    color: rgb(3, 38, 64);
     font-family: Urbanist, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
+@media screen and (min-width: 810px) {
+    h1 {
+        font-size: 32px;
+    }
 
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
 
 .text-explanation {
 
