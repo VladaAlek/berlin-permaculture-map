@@ -594,8 +594,22 @@ main {
     min-height: 500px;
 }
 
-ol {
-    padding-left: 10px;
+.ethical-principles li {
+    margin: 40px 0;
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+.list-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.list-text-span {
+    font-size: inherit;
+    font-weight: 400;
+    margin-left: 10px;
 }
 
 .conntact-list li {
@@ -607,7 +621,7 @@ ol {
     padding-left: 20px;
 }
 
-.iban-span {
+.conntact-list .iban-span {
     font-weight: 12px;
 }
 
