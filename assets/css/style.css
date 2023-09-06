@@ -437,7 +437,8 @@ form a {
     background-repeat: no-repeat, no-repeat;
     background-position: center;
     background-size: cover;
-    overflow-
+    border: 3px solid #64403E;
+    border-radius: 10px;
 }
 
 /*remove scrolbar from the picture"/
@@ -534,41 +535,39 @@ main {
 .grid-container--fill {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-rows: repeat (6, 200px);
+    grid-template-rows: repeat (8, 200px);
     margin-top: 41px;
     column-gap: 82px;
     row-gap: 41px;
 }
 
-.contribute-page-photo,
-.about-us-photo-2,
-.about-us-photo-4,
-.about-us-photo-6 {
+
+.about-us-photo {
     border: 3px solid #64403E;
     border-radius: 10px;
-}
-
-.about-us-photo-2 {
-    background-image: url("../images/meeting.webp");
-}
-
-.about-us-photo-4 {
-    background-image: url("../images/boden_regenwurm-1024x1024.webp");
-
-}
-
-.about-us-photo-6 {
-    background-image: url("../images/Kapuzinerkresse1-scaled-e1658159688319-1024x683.webp");
-}
-
-.about-us-photo-2,
-.about-us-photo-4,
-.about-us-photo-6 {
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+.about-us-photo-1 {
+    background-image: url("../images/sunshine.webp");
+}
+
+.about-us-photo-2 {
+    background-image: url("../images/boden_regenwurm-1024x1024.webp");
+
+}
+
+.about-us-photo-3 {
+    background-image: url("../images/Kapuzinerkresse1-scaled-e1658159688319-1024x683.webp");
+}
+
+.about-us-photo-4 {
+    background-image: url("../images/pkpicknick_1509431939505186_2074816723440290873_n-1024x1024.webp");
+}
+
 
 .child-div {
     max-width: 311px;
