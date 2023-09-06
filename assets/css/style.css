@@ -149,8 +149,9 @@ main {
     grid-column: 1 / 13;
     grid-row: 1 / 2;
     border-radius: 10px;
-    background-image: url("../images/sunshine.webp");
-    background-repeat: no-repeat, no-repeat;
+    background-image: url("../images/Oelweildefrucht-klein.webp");
+    opacity: 0.8;
+    background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     text-align: center;
@@ -167,13 +168,14 @@ main {
 
 h1 {
     text-transform: uppercase;
-    color: #C9CEBD;
+    color: #f1c96c;
     font-family: Urbanist, sans-serif;
+    font-weight: 800;
 }
 
 h2 {
     font-style: italic;
-    color: #838E83;
+    color: white;
     font-family: Urbanist, sans-serif;
     font-weight: 700;
 }
