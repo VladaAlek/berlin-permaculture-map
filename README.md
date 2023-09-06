@@ -52,4 +52,4 @@ describes the principal objectives and activities of POL, an NGO that operates t
 
 delievers fundamental information about practicing permaculture in urban environments with temperate climates. This includes several links to relevant educational resources.
 
-[Pallete used](/repository/assets/images/Coolors_Palette.webp?raw=true "Colors used in this project")
+![Pallete used](./images/Coolors_Palette.webp?raw=true "Colors used in this project")
