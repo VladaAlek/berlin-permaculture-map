@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap');*/
 
 * {
     box-sizing: border-box;
@@ -127,7 +127,7 @@ main {
     grid-row: 1 / 2;
     min-height: 250px;
     border-radius: 10px;
-    background-image: url("../images/Oelweildefrucht-klein.webp");
+    background-image: url("../images/oelweildefrucht-klein.webp");
     opacity: 0.8;
     background-repeat: no-repeat;
     background-position: center;
@@ -136,6 +136,7 @@ main {
     text-align: center;
     border: none;
     padding-top: 60px;
+    margin-bottom: 1rem;
 }
 
 
@@ -150,7 +151,7 @@ h1 {
     text-transform: uppercase;
     color: black;
     font-family: Urbanist, sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
@@ -188,6 +189,11 @@ h2 {
     background-color: #B2BCAA;
     border-radius: 10px;
     padding: 10px 15px;
+    margin-bottom: 1rem;
+}
+
+.home-text-explanation {
+    margin-bottom: 1rem;
 }
 
 .paragraph-title {
@@ -213,6 +219,7 @@ p {
     border: 3px solid #64403E;
     border-radius: 10px;
     position: relative;
+    margin-bottom: 1rem;
 }
 
 button {
@@ -223,10 +230,10 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: Urbanist, sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 3px;
-    font-family: Urbanist, sans-serif;
     margin-left: 150px;
     margin-bottom: 10px;
     margin-top: 8px;
@@ -276,6 +283,7 @@ footer {
     grid-column: 1 / 13;
     grid-row: 4 / 9;
     position: relative;
+    margin-bottom: 1rem;
 }
 
 legend {
@@ -484,8 +492,14 @@ form a {
 }
 
 .permaculture-link:visited {
-    color: #6c6061;
-    text-decoration: none;
+    color: #e3922a;
+    text-shadow: 2px 2px 4px #6c6061;
+}
+
+.permaculture-link:hover {
+    color: #c9cebd;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 .list-logo {
@@ -494,8 +508,8 @@ form a {
 }
 
 .list-text-span {
-    font-size: inherit;
-    font-weight: 400;
+    font-family: roboto, sans-serif;
+    font-weight: 600;
     margin-left: 25px;
 }
 
