@@ -148,7 +148,7 @@ main {
 h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: black;
     font-family: Urbanist, sans-serif;
     font-weight: 800;
     margin-bottom: 15px;
@@ -157,7 +157,7 @@ h1 {
 h2 {
     font-size: 24px;
     font-style: italic;
-    color: whitesmoke;
+    color: black;
     font-family: Urbanist, sans-serif;
     font-weight: 600;
 }
@@ -476,6 +476,16 @@ form a {
     margin-top: 40px;
     margin-left: 20px;
     list-style: none;
+}
+
+.permaculture-link {
+    color: #6c6061;
+    text-decoration: none;
+}
+
+.permaculture-link:visited {
+    color: #6c6061;
+    text-decoration: none;
 }
 
 .list-logo {
