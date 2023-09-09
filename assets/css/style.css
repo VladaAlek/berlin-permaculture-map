@@ -358,7 +358,9 @@ form a {
     position: absolute;
     top: 1140px;
     right: -1000px;
+    display: none;
 }
+
 
 .form-section-photo {
     width: 300px;
@@ -378,6 +380,7 @@ form a {
     }
 
     .form-section-div-absolute {
+        display: block;
         top: 550px;
         right: 50px;
     }
@@ -426,7 +429,7 @@ form a {
 }
 
 .contribute-page-photo {
-    background-image: url("../images/Hosenbiene-small.webp");
+    background-image: url("../images/hosenbiene-small.webp");
     height: 400px;
     width: 100%;
 }
@@ -467,7 +470,7 @@ form a {
 }
 
 .about-us-photo-3 {
-    background-image: url("../images/Kapuzinerkresse1-scaled-e1658159688319-1024x683.webp");
+    background-image: url("../images/kapuzinerkresse1-scaled-e1658159688319-1024x683.webp");
 }
 
 .about-us-photo-4 {
