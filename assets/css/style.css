@@ -286,6 +286,11 @@ footer {
     margin-bottom: 1rem;
 }
 
+fieldset {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 legend {
     font-size: 48px;
     font-family: Urbanist, sans-serif;
