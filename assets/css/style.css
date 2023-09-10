@@ -484,25 +484,61 @@ form a {
     background-image: url("../images/pkpicknick_1509431939505186_2074816723440290873_n-1024x1024.webp");
 }
 
+/*media queries for smartphone*/
+
 @media screen and (min-width: 375px) and (min-height: 700px) {
     .about-us-photo {
         height: 584px;
     }
 }
 
-@media screen and (min-width: 1024px) and (min-height: 700px) {
+@media screen and (min-width: 700px) and (min-height: 375px) {
     .about-us-photo {
-        height: 484px;
+        height: 584px;
+    }
+}
+
+/*media queries for smartphone*/
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+
+    .text-explanation {
+        padding-top: 25px;
     }
 
     p {
-        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .contact-list-div {
+        margin-top: 50px;
+    }
+}
+
+/*media queries for 1024 and more*/
+
+@media screen and (min-width: 1024px) and (min-height: 700px) {
+
+    .about-us-photo {
+        height: 584px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .contact-list-span {
+        font-size: 20px;
     }
 }
 
 .child-div {
     max-width: 365px;
     /*height: 600px;*/
+}
+
+.ethical-principles-div {
+    margin-top: 100px;
 }
 
 .ethical-principles li {
@@ -538,11 +574,11 @@ form a {
     margin-left: 25px;
 }
 
-.conntact-list {
+.contact-list {
     margin-top: 30px;
 }
 
-.conntact-list li {
+.contact-list li {
     font-family: roboto, sans-serif;
     color: black;
     font-size: 14px;
@@ -551,16 +587,25 @@ form a {
     margin: 10px 0;
 }
 
-.conntact-list-span {
+.contact-list-span {
     font-weight: bold;
 }
 
 hr {
     border: 2px dashed #6c6061;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-@media screen and (min-width: 845px) {
-    .grid-container--fill {
-        grid-template-rows: repeat(3, 500px);
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+
+    hr {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
-}
+
+    @media screen and (min-width: 845px) {
+        .grid-container--fill {
+            grid-template-rows: repeat(3, 500px);
+        }
+    }
