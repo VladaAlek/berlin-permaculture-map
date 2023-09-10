@@ -539,7 +539,7 @@ form a {
 }
 
 .conntact-list {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .conntact-list li {
@@ -553,6 +553,10 @@ form a {
 
 .conntact-list-span {
     font-weight: bold;
+}
+
+hr {
+    border: 2px dashed #6c6061;
 }
 
 @media screen and (min-width: 845px) {
