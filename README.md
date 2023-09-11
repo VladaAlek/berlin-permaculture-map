@@ -1,10 +1,11 @@
 # berlin-permaculture-map
 
-![Home_Page](/assets/images/home-bites?raw=true "General Appearance")
 
-![Contribute_Page](/assets/images/contribute-bites?raw=true "General Appearance")
+![Contribute_Page](/assets/images/contribute-bites.webp?raw=true "General Appearance")
 
-![Contribute_Page](/assets/images/about-us-bites?raw=true "General Appearance")
+![Contribute_Page](/assets/images/contribute-bites.webp?raw=true "General Appearance")
+
+![Contribute_Page](/assets/images/about-us-bites.webp?raw=true "General Appearance")
 
 ## User Experience (UX) Section
 
@@ -78,7 +79,7 @@ HTML, CSS
 ### Design
 
 - Coolors: delivered this color palette:
-![Palette used](/assets/images/coolors_palette.webp?raw=true "Color palette used in this project")
+![Palette used](/assets/images/?raw=true "Color palette used in this project")
 Explanation: a combination of a green, grey and brown color resembles the green oasis in the middle of the “concrete jungle”.
 - Chrome Dev-Tool color picker
 - [color-contrast-checker](https://accessibleweb.com/color-contrast-checker/ "color-contrast-checker").
