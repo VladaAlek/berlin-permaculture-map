@@ -130,16 +130,17 @@ For optimal user experience, a parallax component is integrated into the landing
 
 - [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator")
 
--![Home_Page](/assets/images/html_validator_home.webp?raw=true "results")
+[Home_Page](https://github.com/VladaAlek/berlin-permaculture-map/blob/main/assets/images/html_validator_home.webp "Home_Page")
 
--![Contribute_Page](/assets/images/html_validator_contribute.webp?raw=true "results")
+[Contribute_Page](https://github.com/VladaAlek/berlin-permaculture-map/blob/main/assets/images/html_validator_contribute.webp "Contribute_Page")
 
--![About_Us_Page](/assets/images/html_validator_about_us.webp?raw=true "results")
+[About_Us_Page](https://github.com/VladaAlek/berlin-permaculture-map/blob/main/assets/images/html_validator_about_us.webp "About_Us_Page")
 
--![Cover_Leter](/assets/images/cover-letter.webp?raw=true "results")
--![workflow_example](/assets/images/workflow_example.webp?raw=true "results")
+[Cover_Letter](https://github.com/VladaAlek/berlin-permaculture-map/blob/main/assets/images/cover-letter.webp "Cover_Letter")
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validator") - ![Results](/assets/images/css-validator.webp?raw=true "results")
+[Workflow](https://github.com/VladaAlek/berlin-permaculture-map/blob/main/assets/images/workflow_example.webp "Workflow")
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validator") -[Result](https://github.com/VladaAlek/berlin-permaculture-map/blob/main/assets/images/css-validator.webp "Result")
 
 ### Testing User Stories from the UX Section
 
