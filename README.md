@@ -181,11 +181,11 @@ For optimal user experience, a parallax component is integrated into the landing
 
 ### Acknowledgments
 
--my CI Mentor Narender Singh
--CI students: David Calikes, Craig Hudson and James Paliga
--Footer design is based on CI tutorials
+    my CI Mentor Narender Singh
+    -CI students: David Calikes, Craig Hudson and James Paliga
+    -Footer design is based on CI tutorials
 
 ##### -Youtube tutorials
 
-    -[Navigation Bar](https://www.youtube.com/watch?v=UYvwb6pBvg8 "Navigation Bar")
-    -[About Us page:](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/ "css-grid-auto-fill-and-auto-fit")
+    	[Navigation Bar](https://www.youtube.com/watch?v=UYvwb6pBvg8 "Navigation Bar")
+    	[About Us page:](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/ "css-grid-auto-fill-and-auto-fit")
