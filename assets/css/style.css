@@ -39,6 +39,7 @@ body {
 }
 
 @media screen and (min-width: 375px) {
+
     .logo-image {
         width: 40px;
         height: 40px;
@@ -46,6 +47,7 @@ body {
 }
 
 @media screen and (min-width: 810px) {
+
     .logo-image {
         width: 55px;
         height: 55px;
@@ -84,6 +86,7 @@ ul li a:hover {
 /*media queries for navbar for 376px size and bigger*/
 
 @media screen and (min-width: 376px) {
+
     .menu {
         flex-direction: row;
     }
@@ -95,6 +98,7 @@ ul li a:hover {
 }
 
 @media screen and (min-width: 500px) {
+
     ul li {
         margin: 10px 5px;
         font-size: 16px;
@@ -102,6 +106,7 @@ ul li a:hover {
 }
 
 @media screen and (min-width: 810px) {
+
     ul li {
         margin: 10px 5px;
         font-size: 18px;
@@ -138,6 +143,7 @@ main {
 
 
 @media screen and (max-width: 1023px) {
+
     .title-section {
         background-attachment: scroll;
     }
@@ -171,6 +177,7 @@ h2 {
 }
 
 @media screen and (min-width: 810px) {
+
     h1 {
         font-size: 36px;
     }
@@ -181,6 +188,7 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
+
     h1 {
         font-size: 42px;
     }
@@ -223,11 +231,21 @@ p {
 .map-section {
     grid-column: 1 / 13;
     grid-row: 6 / 9;
+    width: 100%;
+    height: 500px;
     background-color: #C9CEBD;
     border: 3px solid #64403E;
     border-radius: 10px;
     position: relative;
     margin-bottom: 1rem;
+}
+
+.map-source {
+    display: block;
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
 }
 
 button {
@@ -249,6 +267,7 @@ button {
     position: absolute;
     right: 120px;
     bottom: 22px;
+    z-index: 100;
 }
 
 button:hover {
@@ -297,6 +316,7 @@ footer {
 fieldset {
     padding-left: 8px;
     padding-right: 8px;
+    min-height: 600px;
 }
 
 legend {
@@ -328,10 +348,10 @@ textarea {
     border-radius: 3px;
 }
 
+
 .submit-button {
-    display: block;
     max-width: 220px;
-    margin: 25px 0;
+    max-height: 50px;
     background-color: #64403E;
     border: none;
     border-radius: 12px;
@@ -342,11 +362,9 @@ textarea {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 3px;
+    margin: 0;
 }
 
-form a {
-    text-decoration: none;
-}
 
 .submit-button:hover {
     border: 1px solid #64403E;
@@ -357,6 +375,7 @@ form a {
 }
 
 @media screen and (min-width: 450px) {
+
     input {
         width: 80%;
     }
@@ -382,6 +401,7 @@ form a {
 }
 
 @media screen and (min-width: 700px) {
+
     input {
         width: 50%;
     }
@@ -403,6 +423,7 @@ form a {
 }
 
 @media screen and (min-width: 768px) {
+
     input {
         width: 50%;
     }
@@ -423,6 +444,7 @@ form a {
 }
 
 @media screen and (min-width: 1024px) {
+
     .form-section-div-absolute {
         top: 520px;
         right: 80px;
@@ -487,12 +509,14 @@ form a {
 /*media queries for smartphone*/
 
 @media screen and (min-width: 375px) and (min-height: 700px) {
+
     .about-us-photo {
         height: 584px;
     }
 }
 
 @media screen and (min-width: 700px) and (min-height: 375px) {
+
     .about-us-photo {
         height: 584px;
     }
@@ -605,6 +629,7 @@ hr {
     }
 
     @media screen and (min-width: 845px) {
+
         .grid-container--fill {
             grid-template-rows: repeat(3, 500px);
         }
